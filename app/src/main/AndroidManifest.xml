@@ -23,6 +23,40 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
+        <!-- Регистрация игроков -->
+        <activity
+            android:name=".presentation.player_registration.PlayerRegistrationActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- Настройки игры -->
+        <activity
+            android:name=".presentation.game_setup.GameSetupActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- Игровое поле -->
+        <activity
+            android:name=".presentation.game.GameActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- Статистика -->
+        <activity
+            android:name=".presentation.statistics.StatisticsActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <!-- Настройки -->
+        <activity
+            android:name=".presentation.settings.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
     </application>
+
 
 </manifest>
